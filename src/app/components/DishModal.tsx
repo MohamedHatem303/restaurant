@@ -69,7 +69,7 @@ export function DishModal({ dish, language, theme, onClose }: DishModalProps) {
 
             <div className="p-6 sm:p-8 md:p-12 flex flex-col justify-center overflow-y-auto">
               <motion.div
-                initial={{ y: 20, opacity: 2 }}
+                initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.15 }}
               >
